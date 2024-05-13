@@ -6,6 +6,7 @@
     height: 8vh;
     display: flex;
     align-items: center;
+    border-style: none;
 
-    border-top: 3px outset var(--main_BG_color);
+    background-image: linear-gradient(0deg, var(--main_color) 25%, var(--main_border_color) 90%, white);
 }

@@ -4,12 +4,13 @@ import OSBackground from "@/app/components/OS-background";
 import OSTaskbar from "@/app/components/OS-taskbar";
 
 export default function Home() {
-  return (
-      <main>
-            <OSBackground/>
+    const listApps = ["SwitchToSimple","AboutMe", "ContactMe", "Projects", "Resume", "SourceCode", "MineSweeper", "Spellbound"];
+    const propsApps = listApps.map((string) => ({name: string}));
+
+    return (
+        <main>
+            <OSBackground icons={propsApps}/>
             <OSTaskbar/>
-
-      </main>
-
-  );
+        </main>
+    );
 }
