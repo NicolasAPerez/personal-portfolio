@@ -1,0 +1,11 @@
+.background{
+    height: 92vh;
+    width: 100%;
+    color: white;
+    background-image: url("/Background.png");
+    image-rendering: pixelated;
+
+    background-size: cover;
+    background-position: bottom;
+
+}
