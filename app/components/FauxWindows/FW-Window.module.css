@@ -1,0 +1,13 @@
+.fakewindow {
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    background-color: white;
+    border-color: var(--main_border_color);
+    border-style: none solid solid solid;
+    border-width: 5px;
+
+}

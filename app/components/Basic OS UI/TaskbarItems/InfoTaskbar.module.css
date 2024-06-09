@@ -1,0 +1,24 @@
+.taskbarInfo {
+    height: max(50px, 8vh);
+    width: max(12vw, 150px);
+    position: fixed;
+    right: 0;
+    background-color: #00000044;
+
+
+    border-width: 6px;
+    border-left-style: solid;
+    border-radius: 20px 0 0 20px;
+    border-left-color: #00000044;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    color: var(--text_color);
+
+    font-size: clamp(10px, 2vmin, 30px);
+    user-select: none;
+    text-align: center;
+}

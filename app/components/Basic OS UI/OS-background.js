@@ -1,5 +1,5 @@
 import classes from "./OS-background.module.css";
-import OSBackgroundShortcut from "@/app/components/OS-backgroundshortcut";
+import OSBackgroundShortcut from "@/app/components/Basic OS UI/OS-backgroundshortcut";
 
 function OsBackground(props) {
     const {icons} = props;
@@ -10,7 +10,6 @@ function OsBackground(props) {
             <div className={classes.shortcut_container}>
                 {icons.map(icon => <OSBackgroundShortcut name={icon.name} key={icon.name}/>)}
             </div>
-
         </div>
     );
 }

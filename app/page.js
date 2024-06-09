@@ -1,7 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import OSBackground from "@/app/components/OS-background";
-import OSTaskbar from "@/app/components/OS-taskbar";
+import OSBackground from "@/app/components/Basic OS UI/OS-background";
+import OSTaskbar from "@/app/components/Basic OS UI/OS-taskbar";
+import FwWindow from "@/app/components/FauxWindows/FW-Window";
 
 export default function Home() {
     const listApps = ["SwitchToSimple","AboutMe", "ContactMe", "Projects", "Resume", "SourceCode", "MineSweeper", "Spellbound"];
