@@ -1,0 +1,22 @@
+.popup{
+    background-color: #ded6b0;
+    background-image: linear-gradient(45deg, #e5e0c6, #ded6b0);
+    position: fixed;
+    right: 0;
+    bottom: max(8.5vh,60px);
+    z-index: 90;
+    height: max(8vh, 50px);
+    width: max(12vw, 150px);
+    border: solid #b7b291;
+
+    border-radius: max(6vh ,40px) max(6vh ,40px) 0 max(6vh ,40px);
+    display: flex;
+}
+.popupText{
+    margin: auto;
+    color: black;
+
+    font-size: clamp(15px, 1vmin, 25px);
+    user-select: none;
+    text-align: center;
+}

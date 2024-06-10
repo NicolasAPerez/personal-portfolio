@@ -1,5 +1,5 @@
 import classes from "./OS-background.module.css";
-import OSBackgroundShortcut from "@/app/components/Basic OS UI/OS-backgroundshortcut";
+import OSBackgroundShortcut from "@/app/components/Basic_OS_UI/OS-backgroundshortcut";
 
 function OsBackground(props) {
     const {icons} = props;
